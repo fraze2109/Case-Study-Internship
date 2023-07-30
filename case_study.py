@@ -14,7 +14,7 @@ def generate_array():
             result.append("BIG")
         elif num % 5 == 0:  # if divisible by 5, add BANG into array
             result.append("BANG")
-        else:  # if does not fit any of the above, add the number into the array
+        else:  # if does not fit any of the above, add the number itself into the array
             result.append(str(num))
     return result
 
